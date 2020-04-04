@@ -1,12 +1,10 @@
 # Canvas
 Canvas is a shader-based Renderer for the [Fabric](https://fabricmc.net) modding toolchain.  It supports all features of the proposed [Fabric Rendering API](https://github.com/FabricMC/fabric/pull/65) plus extensions defined in [FREX](https://github.com/grondag/frex).
 
-
-
 ## Limitations
-Canvas is in EARLY ALPHA.  Expect it to break.  Currently terrain rendering works with shaders but item rendering does not. (It will.). Rendering for blocks in movement (falling blocks, blocks being moved by pistons, etc.) is WIP and *will* crash.  
+Canvas is in EARLY ALPHA. Expect it to break. Currently terrain rendering works with shaders but item rendering does not. (It will.). Rendering for blocks in movement (falling blocks, blocks being moved by pistons, etc.) is WIP and *will* crash.  
 
-The FREX extensions, shader library, vertex formats, attribute bindings, and lighting options are subject to change - causing your code to break.  Sorry.  When there is a stable release (sometime after 1.14 is released) I will avoid breaking changes in shipping versions.  Until then, experimentation is the norm.
+The FREX extensions, shader library, vertex formats, attribute bindings, and lighting options are subject to change - causing your code to break. Sorry. When there is a stable release I will avoid breaking changes in shipping versions.  Until then, experimentation is the norm.
 
 ## Why
 When people first hear about Canvas they often ask if it is a performance mod or a replacement for Optifine / shader packs.  The answer is "no, but..."
